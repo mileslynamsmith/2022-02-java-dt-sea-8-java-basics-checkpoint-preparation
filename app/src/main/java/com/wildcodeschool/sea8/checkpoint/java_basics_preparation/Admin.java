@@ -25,9 +25,14 @@ public class Admin extends ITPerson {
     public boolean hasWriteAccess() {
         // Add logic to evaluate Write access for Admin here. 
         // (write access only if they are certified i.e. the lastCertified dates is less than one year ago)
-        if (this.lastCertified == LocalDate.now().minusYears(1).minusDays(1))
+        /*if (lastCertified == LocalDate.now().minusYears(1).minusDays(1)){
             return true;
         }
-        
+        else {
+            return false;
+        }
+        */
+        boolean isCertified = LocalDate.now().minusYears(1).minusDays(1).isBefore(this.lastCertified);
+            return isCertified;
     }
 }
