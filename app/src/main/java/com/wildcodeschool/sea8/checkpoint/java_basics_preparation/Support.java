@@ -11,7 +11,7 @@ public class Support extends ITPerson {
 
     @Override
     public boolean hasReadAccess() {
-        if (level > 1)
+        if (level >= 1)
             return true;
         else
             return false;

@@ -20,8 +20,8 @@ public class Developer extends ITPerson {
 
     @Override
     public boolean hasWriteAccess() {
-        boolean isCertified = LocalDate.now().minusMonths(6).minusDays(1).isBefore(this.employmentDate);
-            return isCertified;
-        
+        // access only if today's date is 6 months after the employment date
+        boolean isCertified = LocalDate.now().minusMonths(6).isAfter(this.employmentDate);
+            return isCertified;        
     }
 }
