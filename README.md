@@ -15,10 +15,11 @@ Fork this repo and clone your copy of the repo to your local machine. **You will
 
 > Tip: commit and push your changes after each exercise, to avoid unpleasant surprises
 
-#### Import into IntelliJ
+#### ~~Import into IntelliJ~~ Open in VSCode
 
-* Use "File / New / Project from Version Control" and use your forked Repo URL
-* The IDE should recognize the Maven project and after the automatic setup you should be able to execute all unit tests.
+* ~~Use "File / New / Project from Version Control" and use your forked Repo URL~~
+* ~~The IDE should recognize the Maven project and after the automatic setup you should be able to execute all unit tests.~~
+* Open the folder in VSCode as usual
 
 ## Exercises
 
