@@ -14,12 +14,14 @@ public class Developer extends ITPerson {
     @Override
     public boolean hasReadAccess() {
         // Add logic to evaluate Read access for Developer here.
-        return false;
+        // Developers always have read access 
+        return true;
     }
 
     @Override
     public boolean hasWriteAccess() {
-        // Add logic to evaluate Write access for Developer here.
-        return false;
+        boolean isCertified = LocalDate.now().minusMonths(6).minusDays(1).isBefore(this.employmentDate);
+            return isCertified;
+        
     }
 }
