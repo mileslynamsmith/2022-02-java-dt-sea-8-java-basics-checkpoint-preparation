@@ -1,65 +1,65 @@
 Q: What is the default branch of a git repository called?
-A:
+A: main
 
 Q: How do you change branches using git?
-A:
+A: git checkout xx
 
 Q: What is the command that allows you to create a local repository from a remote repository?
-A:
+A: git clone
 
 Q: How do you check the status of the working directory of the local repository?
-A:
+A: git status 
 
 Q: What sequence of commands allows me to share new changes in a local repository with an (already configured) remote repository?
-A:
+A: git status, git add ., git status, git commit, git push -u origin main
 
 Q: What is the value of the expression (true && false)?
-A:
+A: false
 
 Q: How can you write `i = i + 1` more concisely?
-A:
+A: i +=
 
 Q: What does the term "concatenation" mean?
-A:
+A: link
 
 Q: Why is the check for "equals" with (object == object) not reliable? What should you use for check of equal objects?
-A:
+A: Asssert.equals
 
 Q: What Collection implementation is ordered, but not sorted?
-A:
+A: 
 
 Q: What Collection implementation has only unique elements?
 A:
 
 Q: How can we find out the number of elements of an array named "students"?
-A:
+A: in java arrays have a fixed size
 
 Q: How can we find out the number of elements of a list named "students"?
-A:
+A: system.print.ln
 
 Q: In Java, what happens if I divide by Zero (eg. 8 / 0)?
-A:
+A: the answer is 1
 
 Q: How can you check if File quiz = new File("quiz.txt") exists?
-A:
+A: print.system.ln
 
 Q: Depending on some attributes, an object should return isAllowed(). Should the method be static or not, why?
-A:
+A: yes
 
 Q: What is the signature of the `main` method of a class?
-A:
+A: static main void (String args)
 
 Q: What is an instance of a class?
-A:
+A: an occurance of a class 
 
 Q: Which naming rule should you apply to the naming of a class?
-A:
+A: CamelCase
 
 Q: Why should the usage of java.util.Date be avoided?
-A:
+A: it's unreliable
 
 Q: What Java class do you use to store the Date "31.10.2021"?
-A:
+A: Date 
 
 Q: What is the advantage of using Generics?
-A:
+A: faster 
